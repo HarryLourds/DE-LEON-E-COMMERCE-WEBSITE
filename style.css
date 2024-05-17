@@ -168,7 +168,6 @@ button.submitbutton:hover {
     transform: scale(1.1);
 }
 
-/* marquee css ciode */
 @keyframes marquee {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
@@ -181,7 +180,6 @@ button.submitbutton:hover {
     text-align: center;
 }
 
-/* css for hr */
 .horizontal-line {
     border-top: 1px solid #000;
 }
