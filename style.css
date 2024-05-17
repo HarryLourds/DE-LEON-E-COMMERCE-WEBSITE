@@ -168,3 +168,18 @@ button.submitbutton:hover {
     transform: scale(1.1);
 }
 
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}.marquee {
+    animation: marquee 10s linear infinite;
+}
+
+/* Define a class for centering content */
+.centered {
+    text-align: center;
+}
+
+.horizontal-line {
+    border-top: 1px solid #000;
+}
