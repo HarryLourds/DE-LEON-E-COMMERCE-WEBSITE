@@ -1,112 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce Webpages</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body background="imgbghome.jpg">
+<body>
     <header>
-        <marquee behavior="alternate" direction="left" style="font-family: 'Roboto', sans-serif; color: red; font-size: 300%;" bgcolor="black">
+        <div class="marquee">
             <b>ONLY THE BEST! GET YOUR HGM MOUSE NOW!</b>
-        </marquee>
-        <center>
+        </div>
+        <div class="centered-content">
             <hr>
-            <h1 style="font-family: 'Roboto', sans-serif;">Gaming Mouse</h1>
+            <h1 class="title">Gaming Mouse</h1>
             <hr>
-        </center>
+        </div>
     </header>
     <nav>
-        <center>
+        <div class="centered-content">
             <a href="home.html" class="navbutton">Home</a>
             <a href="product.html" class="navbutton">Products</a>
             <a href="aboutus.html" class="navbutton">About Us</a>
             <a href="contactus.html" class="navbutton">Contact Us</a> 
-        </center>
+        </div>
         <hr>
     </nav>
-    <center>
+    <div class="centered-content">
         <form class="search-form" action="/search" method="get">
             <input type="text" name="query" placeholder="Enter your search" required>
             <button type="submit">Search</button>
         </form>
         <hr>
-    </center>
-        <br>
-			<table border="1" width="100%">
-		<tr>
-			<td colspan="3" style="background-color: black;">
-				<center>
-					<font style="font-family: 'Roboto', sans-serif; color: lightblue" size="100">
-						<hr>
-						<img src="imgfeaturedproductINDEX1.1.png" alt="Harry Lourds de Leon" width="200" height="200" style="float: left;">
-						<hr><hr>
-						<b>Gaming Mouse</b>
-						<hr><hr>
-					</font>
-				</center>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color: black;">
-				<section style="color: white; padding: 20px;">
-						<div>
-						  <br>
-						  <br>
-						  <center><img src="sectiongamingmouse.png" alt="section image" width="350" height ="250"></center>
-						</div>
-						<br>
-						<div style="text-align: left;">
-						<p style="font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 24px;" >A gaming mouse is a specialized peripheral designed for enhanced precision, speed, and 
-																				functionality in gaming. It features high-DPI sensors for accurate tracking, ergonomic d
-																				esigns for comfort, and customizable elements like adjustable weights, sensitivity settings, 
-																				and programmable buttons. Advanced models offer high polling rates for minimal lag, RGB lighting for customization, 
-																				onboard memory for profile storage, and durable switches. 
-																				These features provide a competitive edge across various gaming genres.</p>
-						</div>
-				</section>
-			</td>
-			<td colspan="1" style="background-color: black;" rowspan="2">
-				<center>
-					<aside style="color: white; padding: 20px">
-						<ul>
-							 <a href="https://global.machenike.com/collections/mice">
-								<img src="machenike.jpg" alt="Harry Lourds de Leon" width="300" height="250" style="float: left;">
-							</a>
-							<a href="https://www.lenovo.com/us/en/d/accessories-and-software/gaming-mice-and-mouse-pads/?orgRef=https%253A%252F%252Fwww.google.com%252F">
-								<img src="legion.png" alt="Harry Lourds de Leon" width="300" height="350" style="float: left;">
-							</a>
-							
-						</ul>
-					</aside>
-				</center>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color: black;">
-				<article style="font-family: 'Roboto', sans-serif; font-weight: bold; color: white; padding: 20px;">
-					<h2>Breaking News: Revolutionary LEGION Gaming Mouse Unveiled with Groundbreaking Technology</h2>
-					<div>
-						  <center><img src="breaking news.png" alt="section image" width="500" height ="300"></center>
-					</div>
-			<p style="font-family: 'Roboto', sans-serif; font-weight: bold;">
-				Today, LEGION has unveiled its latest gaming mouse, featuring cutting-edge technology set to transform the gaming landscape. This innovative device boasts an ultra-high DPI sensor for unparalleled precision, lightning-fast response times with a top-tier polling rate, and advanced customizable buttons for ultimate control. 
-				Ergonomically designed for maximum comfort, the LEGION gaming mouse introduces a revolutionary new feature: adaptive grip technology that adjusts to the user's hand for the perfect fit. Additionally, it includes RGB lighting with immersive effects and onboard AI to learn and optimize user settings in real time.
-				With these advancements, the LEGION gaming mouse promises to deliver an unmatched gaming experience, setting a new standard in the industry. Stay tuned for more details on this game-changing release.
-			</p>
-				</article>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="3" style="background-color: black;">
-				<center>
-					<h1 style="font-family: 'Roboto', sans-serif; color: white; padding: 20px;">Copyright © 2010 Harry's Gaming Mouse (HGM). All rights reserved.</h1>
-				</center>
-			</td>
-		</tr>
-		</table>
-		<br>
-
+    </div>
+    <br>
+    <table class="styled-table">
+        <tr>
+            <td colspan="3" class="black-background">
+                <div class="centered-content">
+                    <div class="font-styled">
+                        <hr>
+                        <img src="imgfeaturedproductINDEX1.1.png" alt="Harry Lourds de Leon" width="200" height="200" style="float: left;">
+                        <hr>
+                        <b>Gaming Mouse</b>
+                        <hr>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="black-background">
+                <section class="white-text padding">
+                    <div class="centered-content">
+                        <br>
+                        <img src="sectiongamingmouse.png" alt="section image" width="350" height="250">
+                    </div>
+                    <br>
+                    <div class="left-text">
+                        <p class="description">A gaming mouse is a specialized peripheral designed for enhanced precision, speed, and functionality in gaming...</p>
+                    </div>
+                </section>
+            </td>
+            <td class="black-background" rowspan="2">
+                <div class="centered-content">
+                    <aside class="white-text padding">
+                        <ul>
+                            <li>
+                                <a href="https://global.machenike.com/collections/mice">
+                                    <img src="machenike.jpg" alt="Harry Lourds de Leon" width="300" height="250" style="float: left;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.lenovo.com/us/en/d/accessories-and-software/gaming-mice-and-mouse-pads/?orgRef=https%253A%252F%252Fwww.google.com%252F">
+                                    <img src="legion.png" alt="Harry Lourds de Leon" width="300" height="350" style="float: left;">
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="black-background">
+                <article class="white-text padding">
+                    <h2>Breaking News: Revolutionary LEGION Gaming Mouse Unveiled with Groundbreaking Technology</h2>
+                    <div class="centered-content">
+                        <img src="breaking_news.png" alt="section image" width="500" height="300">
+                    </div>
+                    <p>Today, LEGION has unveiled its latest gaming mouse, featuring cutting-edge technology set to transform the gaming landscape...</p>
+                </article>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="black-background">
+                <div class="centered-content">
+                    <h1 class="white-text padding">Copyright © 2010 Harry's Gaming Mouse (HGM). All rights reserved.</h1>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br>
 </body>
 </html>
